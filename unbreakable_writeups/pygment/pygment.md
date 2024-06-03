@@ -4,7 +4,7 @@
 ### ![alt text](photo1.PNG)
 Error is: 
 Warning: Undefined array key "a" in /var/www/html/index.php on line 77 Warning: Undefined array key "b" in /var/www/html/index.php on line 77 Fatal error: Uncaught RuntimeException: sh: 1: pygmentize: not found in /var/www/html/index.php:63 Stack trace: #0 /var/www/html/index.php(77): Pygmentize::highlight(NULL, NULL) #1 {main} thrown in /var/www/html/index.php on line 63
-We can understand the a, b are tried to be used and they aren’t defined. I try to add them in the url as GET parameters
+### We can understand the a, b are tried to be used and they aren’t defined. I try to add them in the url as GET parameters
 
 ### After adding them to the url, the error changes:
 Fatal error: Uncaught RuntimeException: sh: 1: pygmentize: not found in /var/www/html/index.php:63 Stack trace: #0 /var/www/html/index.php(77): Pygmentize::highlight('x', 'x') #1 {main} thrown in /var/www/html/index.php on line 63
