@@ -17,14 +17,7 @@ In order to figure out the version of the Pygmentize app used in this CTF, I try
 http://challenge_IP:PORT/composer.lock
 I see version 1.0 is being used.
 ### ![alt text](image_url)
-### From now, we can definitely exploit the RCE vulnerability and get the flag. 
-
-
-
-
-
-
-
+### From now, we can definitely exploit the RCE vulnerability and get the flag.
 
 
 
