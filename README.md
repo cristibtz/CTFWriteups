@@ -1,1 +1,1 @@
-### CTF writeups from different places
+### CTF writeups from different websites
